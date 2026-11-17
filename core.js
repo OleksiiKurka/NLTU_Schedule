@@ -1,5 +1,7 @@
 (function(root){
-const defaults={start:'2026-09-01',end:'2026-12-18',moduleStart:'2026-10-19',moduleEnd:'2026-10-30',module2Start:'2026-12-07',module2End:'2026-12-18',sessionStart:'2026-12-21',sessionEnd:'2026-12-31',firstParity:'н'};
+// Графік навчального процесу 2026/2027 (наказ НЛТУ №120 від 25.05.2026): модулі 12.10–25.10 і 07.12–20.12, семестровий контроль 21.12–31.12.
+const defaults={start:'2026-09-01',end:'2026-12-18',moduleStart:'2026-10-12',moduleEnd:'2026-10-25',module2Start:'2026-12-07',module2End:'2026-12-20',sessionStart:'2026-12-21',sessionEnd:'2026-12-31',firstParity:'н'};
+Object.assign(defaults,(root.APP_CONFIG&&root.APP_CONFIG.calendar)||{});
 const date=s=>new Date(s+'T12:00:00Z'), iso=d=>d.toISOString().slice(0,10);
 function monday(s){let d=date(s);d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return iso(d)}
 function add(s,n){let d=date(s);d.setUTCDate(d.getUTCDate()+n);return iso(d)}
