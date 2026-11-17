@@ -1,0 +1,228 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · ТЗНС-51м
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gqvpuz-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Інтелектуальна власність (Лаборато
+ рна)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Андрашек Й.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:m3kyng-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Суч техн очищення газов систем (Лабо
+ раторна)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Кіндзера Д.П.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1v6aw4n-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T143000
+DTEND;TZID=Europe/Kyiv:20260914T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Педагог і психол вищої школи (Лекція
+ )
+LOCATION:ауд. 207
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Ільків К.Р.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1dwl32w-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Суч техн очищення газов систем (Лекц
+ ія)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Кіндзера Д.П.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:fo5hli-11@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T083000
+DTEND;TZID=Europe/Kyiv:20260901T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Тепломасообм проц довкілля (Лаборат
+ орна)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Андрашек Й.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:19if6ee-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Тепломасообм проц довкілля (Лекція)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Андрашек Й.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:16c5hhl-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T102000
+DTEND;TZID=Europe/Kyiv:20260908T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Інтелектуальна власність (Лекція)
+LOCATION:ауд. 38\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Кушпіт О.М.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:15vl50m-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Геоінформац системи захисту довк (Л
+ абораторна)
+LOCATION:ауд. 45
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: не вказано\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:w5vzp3-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T121000
+DTEND;TZID=Europe/Kyiv:20260908T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Геоінформац системи захисту довк (Л
+ екція)
+LOCATION:ауд. 45
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: не вказано\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1niw0zb-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи оцінки життєвого циклу (Лабо
+ раторна)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:z1zzm9-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи оцінки життєвого циклу (Лекц
+ ія)
+LOCATION:ауд. 40А\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:40l7xo-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Методолог та організ науков дослідж
+  (Лекція)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Кіндзера Д.П.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:qmc70m-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи оцінки життєвого циклу (Лекц
+ ія)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:6fiqg3-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Методолог та організ науков дослідж
+  (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Викладач: Кіндзера Д.П.\nГрупи: ТЗН
+ С-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:vqnk5j-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Охорона праці в галузі та ЦЗ (Лабора
+ торна)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сторожук В.М.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1sjr0y2-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона праці в галузі та ЦЗ (Лекція)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Викладач: Сторожук В.М.\nГрупи: ТЗН
+ С-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:ldjc5g-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Педагог і психол вищої школи (Лабора
+ торна)
+LOCATION:ауд. 20\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ТЗНС-51м
+END:VEVENT
+END:VCALENDAR

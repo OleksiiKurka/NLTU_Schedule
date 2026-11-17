@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · ДМТ-61м
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1ttuuul-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона довкілля:інтегровані техно
+ логії для сталого розвитку (Лекція)
+LOCATION:ауд. 38\, корпус 2
+DESCRIPTION:Викладач: Кшивецький Б.Я.\, Сомар Г.
+ В.\, Маєвська О.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:11e6uwc-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона довкілля:інтегровані техно
+ логії для сталого розвитку (Лекція)
+LOCATION:ауд. 38\, корпус 2
+DESCRIPTION:Викладач: Кшивецький Б.Я.\, Сомар Г.
+ В.\, Маєвська О.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:1li7m1z-11@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T083000
+DTEND;TZID=Europe/Kyiv:20260901T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона довкілля:інтегровані техно
+ логії для сталого розвитку (Лекція)
+LOCATION:ауд. 36\, корпус 2
+DESCRIPTION:Викладач: Кшивецький Б.Я.\, Сомар Г.
+ В.\, Маєвська О.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:1t1fzqc-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона довкілля:інтегровані техно
+ логії для сталого розвитку (Лекція)
+LOCATION:ауд. 36\, корпус 2
+DESCRIPTION:Викладач: Кшивецький Б.Я.\, Сомар Г.
+ В.\, Маєвська О.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:vsvd3-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Сучасні зелені конструкції (Лекція)
+LOCATION:ауд. 91\, корпус 2
+DESCRIPTION:Викладач: Удовицький О.М.\, Ортинсь
+ ка Г.Є.\, Матюшенко І.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:1ki8ns4-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Сучасні зелені конструкції (Лекція)
+LOCATION:ауд. 91\, корпус 2
+DESCRIPTION:Викладач: Удовицький О.М.\, Ортинсь
+ ка Г.Є.\, Матюшенко І.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:122cko6-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Сучасні зелені конструкції (Лекція)
+LOCATION:ауд. 91\, корпус 2
+DESCRIPTION:Викладач: Удовицький О.М.\, Ортинсь
+ ка Г.Є.\, Матюшенко І.М.\nГрупи: ДМТ-61м
+END:VEVENT
+BEGIN:VEVENT
+UID:em0pdx-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Сучасні зелені конструкції (Лекція)
+LOCATION:ауд. 91\, корпус 2
+DESCRIPTION:Викладач: Удовицький О.М.\, Ортинсь
+ ка Г.Є.\, Матюшенко І.М.\nГрупи: ДМТ-61м
+END:VEVENT
+END:VCALENDAR

@@ -18,3 +18,9 @@ for(let min of [0,1,3,5])for(let n of [1,8,24])for(let target of [n*min,Math.flo
 assert.throws(()=>C.distributeBounded(41,8,1,5),RangeError);assert.throws(()=>C.distributeBounded(7,8,1,5),RangeError);assert.throws(()=>C.distributeBounded(0,0,1,5),RangeError);
 assert(C.defaults.moduleEnd<C.defaults.module2Start);assert(C.defaults.module2End<C.defaults.sessionStart);
 console.log('PASS: bounded grades 0/1/3/5–5, exact totals, infeasible allocation rejected, two ordered modules');
+// Calendar subscriptions: recurring events must expand to exactly the same lessons as Core.occurrences
+{const expand=t=>{let n=0;for(const ev of t.split('BEGIN:VEVENT').slice(1)){const g=k=>(ev.match(new RegExp('\\n'+k+'[^:]*:([^\\r]*)'))||[])[1];const s=g('DTSTART').slice(0,8),iv=+g('RRULE').match(/INTERVAL=(\d)/)[1],ex=(g('EXDATE')||'').split(',').filter(Boolean).map(x=>x.slice(0,8));const iso=x=>x.slice(0,4)+'-'+x.slice(4,6)+'-'+x.slice(6);for(let d=iso(s);d<=C.defaults.end;d=C.add(d,7*iv))if(!ex.includes(d.replace(/-/g,'')))n++}return n};
+ const slugs=new Set();for(const x of C.calendars(data)){const rows=C.select(data.lessons,x),t=C.ics(rows,C.defaults,x,{stamp:'20260901T000000Z'});assert.equal(expand(t),C.occurrences(rows,C.defaults).length,C.label(x));assert(!slugs.has(C.slug(x)));slugs.add(C.slug(x));assert(/^[a-z0-9-]+$/.test(C.slug(x)))}
+ const withSession={...C.defaults,sessionStart:'2026-12-14',sessionEnd:'2026-12-31'},rows=C.select(data.lessons,{mode:'student',group:'ДТ-12',sub:'ДТ-12/1'});assert.equal(expand(C.ics(rows,withSession,{mode:'student',group:'ДТ-12',sub:'ДТ-12/1'}).replace(/\d{8}T215959Z/g,'20261218T215959Z')),C.occurrences(rows,withSession).length);
+ console.log('PASS: '+slugs.size+' calendar subscriptions match semester occurrences, unique slugs, session exclusion')}
+require('child_process').execFileSync(process.execPath,[require('path').join(__dirname,'scripts/build_calendars.cjs'),'--check'],{stdio:'inherit'});
