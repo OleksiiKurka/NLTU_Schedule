@@ -36,3 +36,20 @@
 .nc-top{align-items:center}.nc-top>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.nc-top>span:last-child{flex:none;white-space:nowrap}
 .cal-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}.cal-opt{display:flex;flex-direction:column;gap:2px;padding:14px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:#fff}.cal-opt:first-child{border-color:var(--green);background:#f3f6ea}.cal-opt:hover{border-color:var(--green)}.cal-opt b{color:var(--green);font-size:15px}.cal-opt small{color:var(--muted);font-size:12px}.cal-link{display:flex;flex-direction:column;gap:6px;margin:6px 0 12px}.cal-link div{display:flex;gap:8px}.cal-link input{font-size:12px;min-height:40px}.cal-link button{flex:none;min-height:40px}.cal-help{padding-left:18px;font-size:12px;color:var(--sec,#46524b);line-height:1.55}.cal-help li{margin:5px 0}.linkbtn{border:0;background:none;padding:6px 0;min-height:0;color:var(--green);text-decoration:underline;font-size:12px}.linkbtn:hover{background:none}@media(max-width:480px){.cal-opts{grid-template-columns:1fr}}
 .cal-steps{margin:14px 0;padding-left:22px;display:flex;flex-direction:column;gap:12px;font-size:13px;line-height:1.5}.cal-steps li::marker{font-weight:700;color:var(--green)}.cal-steps b{display:block;margin-bottom:3px}.cal-steps .cal-copy{margin-top:6px;min-height:40px}.cal-url-text{display:flex;align-items:center;gap:8px;margin:6px 0;flex-wrap:wrap}.cal-url-text code{font-size:11px;background:#f3f6ea;padding:6px 8px;border-radius:7px;overflow-wrap:anywhere}.cal-url-text button{min-height:34px;padding:5px 10px;font-size:12px}.cal-alt{margin:6px 0 14px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;font-size:13px}.cal-alt summary{cursor:pointer;font-weight:600;color:var(--green)}.cal-alt p{color:var(--sec,#46524b);font-size:12px}
+
+/* Доступність (стандарт сайту ННІ ДТД, 11.2026): текст не дрібніший за 12 px; на сенсорних екранах поля — 16 px
+   (інакше iPhone збільшує сторінку під час введення), кнопки й поля — щонайменше 44 px; посилання назад на сайт. */
+.brand-sub,.side-label,.eyebrow,.field>span,label>span,.savebtn small,.timecell,.lesson .kind,.lesson .kind em,.grp,.half .hl i,.half .hm,.half-free,footer,footer button,.subtle,.term,.notice,.mobile-time,.m-card .kind,.combo-cur,.cal-url-text code,.semester-plan h3 small,.electives h3 small,.credits small,.grade-warning{font-size:12px}
+html:not(.pwa) nav button span,html:not(.pwa) header,html:not(.pwa) header button{font-size:12px}
+.lesson .kind{letter-spacing:.03em}
+.lesson.half{flex:1 0 auto;min-height:56px}
+@media (pointer:coarse){
+  input,select,textarea,.toolbar input,.toolbar select,.wk input{font-size:16px}
+  button,input,select,.segmented button,.toolbar .segmented button,.tb-actions button,.wk button,.wk input,footer button,header button,.side-bottom button{min-height:44px}
+  .wk button{min-width:44px}
+}
+.home-link{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);font-weight:600;text-decoration:none;white-space:nowrap}
+.home-link:hover{text-decoration:underline}
+html.has-home main>header>span{flex:1;text-align:center}
+@media (max-width:760px){html.has-home main>header>span{display:none}}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
