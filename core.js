@@ -34,7 +34,7 @@ function ics(rows,c,x,opts={}){
  for(const {l,p,k} of ev){const d0=first(l.day,p);if(!d0)continue;const [a,e]=l.time.split(/\s*-\s*/),step=p?14:7,ex=[];for(let d=d0;d<=c.end;d=add(d,step))if(d>=c.sessionStart&&d<=c.sessionEnd)ex.push(d);
   L.push('BEGIN:VEVENT','UID:'+hash(slug(x)+'|'+k+'|'+p)+'-'+l.day+l.slot+'@nltu-schedule','DTSTAMP:'+stamp,'DTSTART;TZID=Europe/Kyiv:'+dt(d0,a),'DTEND;TZID=Europe/Kyiv:'+dt(d0,e),'RRULE:FREQ=WEEKLY;INTERVAL='+(p?2:1)+';UNTIL='+b(c.end)+'T215959Z');
   if(ex.length)L.push('EXDATE;TZID=Europe/Kyiv:'+ex.map(d=>dt(d,a)).join(','));
-  L.push('SUMMARY:'+q(l.subject+' ('+TYPES[l.type]+')'));if(l.room)L.push('LOCATION:'+q('ауд. '+l.room+(l.building?', корпус '+l.building:'')));
+  L.push('SUMMARY:'+q(l.subject+(opts.types===false?'':' ('+TYPES[l.type]+')')));if(l.room)L.push('LOCATION:'+q('ауд. '+l.room+(l.building?', корпус '+l.building:'')));
   L.push('DESCRIPTION:'+q((p?(p==='н'?'Чисельник':'Знаменник')+' (через тиждень)\n':'')+'Викладач: '+(l.teachers.join(', ')||'не вказано')+'\nГрупи: '+l.groups.join(', ')),'END:VEVENT')}
  L.push('END:VCALENDAR');return L.map(fold).join('\r\n')+'\r\n'}
 function calendars(SCHEDULE){const out=[],bases=[...new Set(SCHEDULE.groups.map(g=>g.base))];for(const g of bases)out.push({mode:'student',group:g,sub:'all'});for(const g of SCHEDULE.groups)if(g.id.includes('/'))out.push({mode:'student',group:g.base,sub:g.id});for(const t of [...new Set(SCHEDULE.lessons.flatMap(l=>l.teachers))].sort())out.push({mode:'teacher',teacher:t});return out}
