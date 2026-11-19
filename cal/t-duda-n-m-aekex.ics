@@ -25,6 +25,343 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:i1zi03-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T102000
+DTEND;TZID=Europe/Kyiv:20260914T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Практична)
+LOCATION:ауд. 307\, корпус 1
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ІПЗ-41/1\, ІПЗ-41/2\, ІПЗС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:140n2qw-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Практична)
+LOCATION:ауд. 307\, корпус 1
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: КН-41/1\, КН-41/2\, КН-42\, КНС
+ -31
+END:VEVENT
+BEGIN:VEVENT
+UID:1tpy6f2-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Лекція)
+LOCATION:ауд. В\, корпус 1
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: КН-41/1\, КН-41/2\, КН-42\, КНС
+ -31\, ІСТ-41/1\, ІСТС-31\, ІПЗС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:1v2devm-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Лекція)
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ІПЗ-41/1\, ІПЗ-41/2\, КІ-31/1\, 
+ КІС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:1y0mlg4-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Практична)
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: КІ-31/1\, КІС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:167pxg4-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T143000
+DTEND;TZID=Europe/Kyiv:20260914T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Українська мова за професійним спря
+ муванням (Практична)
+LOCATION:ауд. В\, корпус 1
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ІСТ-41/1\, ІСТС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:mink06-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МЗЕД-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1gjkdvs-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T162000
+DTEND;TZID=Europe/Kyiv:20260914T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МК-13
+END:VEVENT
+BEGIN:VEVENT
+UID:107j6pp-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T162000
+DTEND;TZID=Europe/Kyiv:20260914T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: НБ-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1gjkcaw-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МК-11
+END:VEVENT
+BEGIN:VEVENT
+UID:130tcxb-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 211
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ФБ-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1ptegkb-11@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T083000
+DTEND;TZID=Europe/Kyiv:20260901T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ЕК-11/1\, ЕК-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:11jsz8z-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ОА-11\, ГРС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1lpmlti-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ФБ-11
+END:VEVENT
+BEGIN:VEVENT
+UID:xy3bcb-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: НБ-11\, НБ-12\, ПУА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1jn98w8-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф.зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-11\, ПС-12\, ПС-13\, ПС-14
+END:VEVENT
+BEGIN:VEVENT
+UID:zzdxtd-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конф.зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: Е-11\, ТР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:jd33yr-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лабора
+ торна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ЕК-11/1\, ЕК-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:r45lym-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 405
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МО-12
+END:VEVENT
+BEGIN:VEVENT
+UID:tjphwo-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T102000
+DTEND;TZID=Europe/Kyiv:20260908T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 405
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МК-12
+END:VEVENT
+BEGIN:VEVENT
+UID:11e2iu2-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:i9nh1d-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T143000
+DTEND;TZID=Europe/Kyiv:20260901T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: Е-11
+END:VEVENT
+BEGIN:VEVENT
+UID:30zy0f-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T143000
+DTEND;TZID=Europe/Kyiv:20260908T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 102
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ЛО-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1y3dy6v-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T143000
+DTEND;TZID=Europe/Kyiv:20260908T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: НБ-11\, ПУ
+ А-11
+END:VEVENT
+BEGIN:VEVENT
+UID:4ful9t-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T162000
+DTEND;TZID=Europe/Kyiv:20260901T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ОА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:c4v555-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T162000
+DTEND;TZID=Europe/Kyiv:20260901T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 211
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МО-11
+END:VEVENT
+BEGIN:VEVENT
+UID:c4v3k9-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T162000
+DTEND;TZID=Europe/Kyiv:20260908T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 211
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МО-13
+END:VEVENT
+BEGIN:VEVENT
+UID:1nl4d3j-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T162000
+DTEND;TZID=Europe/Kyiv:20260908T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ГРС-11
+END:VEVENT
+BEGIN:VEVENT
 UID:1i80bxk-21@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260902T083000
@@ -62,6 +399,30 @@ DESCRIPTION:Викладач: Саламаха І.П.\, Дуда Н.М.\n
   ТДБ-21/2\, Д-11/1\, Д-11/2
 END:VEVENT
 BEGIN:VEVENT
+UID:yhfau9-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: МГ-11\, ЗК
+ Р-11\, ГД-11/1\, ГД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:zpax4e-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T102000
+DTEND;TZID=Europe/Kyiv:20260909T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: СПГ-11/1\, 
+ СПГ-11/2\, СПГ-12
+END:VEVENT
+BEGIN:VEVENT
 UID:1bxi3dz-23@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260902T121000
@@ -74,6 +435,18 @@ DESCRIPTION:Чисельник (через тиждень)\nВиклада
  Т-21/2
 END:VEVENT
 BEGIN:VEVENT
+UID:1yxvg6a-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: А-11/1\, А-1
+ 1/2
+END:VEVENT
+BEGIN:VEVENT
 UID:hxs1xh-23@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260909T121000
@@ -84,5 +457,175 @@ LOCATION:ауд. 20\, корпус 2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Саламаха І.П.\, Дуда Н.М.\nГрупи: ТДБ-21/1\, 
  ТДБ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1x89glj-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 408
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ЛО-11
+END:VEVENT
+BEGIN:VEVENT
+UID:or6rhh-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 106
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: ЛГ-11/1\, Л
+ Г-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:ne5e4m-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 106
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: ЛГ-12/1\, Л
+ Г-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:8u6mxc-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T162000
+DTEND;TZID=Europe/Kyiv:20260909T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ТР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1qjuei6-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 102
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ЛО-13/1\, ЛО-13/2
+END:VEVENT
+BEGIN:VEVENT
+UID:p4apfy-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T083000
+DTEND;TZID=Europe/Kyiv:20260910T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 102
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ЛО-14
+END:VEVENT
+BEGIN:VEVENT
+UID:kpm7rd-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: ЛО-15
+END:VEVENT
+BEGIN:VEVENT
+UID:1f16qow-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\nГрупи: МЗЕД-11
+END:VEVENT
+BEGIN:VEVENT
+UID:fszepz-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лабора
+ торна)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Викладач: Дуда Н.М.\, Саламаха І.П.\n
+ Групи: А-11/1\, А-11/2\, ЛГ-11/1\, ЛГ-11/2\, ЛГ-12/1\, ЛГ-
+ 12/2\, МГ-11\, СПГ-11/1\, СПГ-11/2\, СПГ-12\, ЗКР-11\, ГД
+ -11/1\, ГД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:10mfweq-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Релігієзнавство / Сталий розвиток / 
+ Логіка та аналітичні процеси (Лекція)
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Соловій І.П.\, Загвойська Л.Д.
+ \, Юрманова А\nГрупи: ПС-21\, ПС-22\, ПС-23
+END:VEVENT
+BEGIN:VEVENT
+UID:1au95j1-35@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T162000
+DTEND;TZID=Europe/Kyiv:20260903T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Релігієзнавство / Сталий розвиток / 
+ Логіка та аналітичні процеси (Лекція)
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Соловій І.П.\, Загвойська Л.Д.
+ \, Юрманова А.\nГрупи: ПС-21\, ПС-22\, ПС-23
+END:VEVENT
+BEGIN:VEVENT
+UID:16pm2c8-41@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T083000
+DTEND;TZID=Europe/Kyiv:20260904T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-13
+END:VEVENT
+BEGIN:VEVENT
+UID:ulgxfe-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1xjhw8t-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-14
 END:VEVENT
 END:VCALENDAR

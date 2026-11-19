@@ -25,6 +25,116 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1difijf-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Екологія (Лекція)
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: А-52б
+END:VEVENT
+BEGIN:VEVENT
+UID:4tpchg-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Загальна екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: ЛГ-11/1\, ЛГ-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:8cqd86-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T083000
+DTEND;TZID=Europe/Kyiv:20260909T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Загальна екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: ЛГ-12/1\, ЛГ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:olvpef-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Загальна екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: СПГ-11/1\, СПГ-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1978g7r-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T102000
+DTEND;TZID=Europe/Kyiv:20260909T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Загальна екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: МГ-11\, ЗКР-11\, ГД-11/1\, 
+ ГД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:y2ymin-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Загальна екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: СПГ-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1ayvmif-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Квітникарство (Лабораторна)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: СПГС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:2bvn5y-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T083000
+DTEND;TZID=Europe/Kyiv:20260910T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Квітникарство (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: СПГС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:8kv7kb-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Екологія (Лабораторна)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: А-31
+END:VEVENT
+BEGIN:VEVENT
+UID:17h2suy-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: А-31
+END:VEVENT
+BEGIN:VEVENT
 UID:1cscd3e-34@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260903T143000
@@ -46,5 +156,16 @@ SUMMARY:Основи екологічних знань (Лекція)
 LOCATION:ауд. гурт№2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Данилик Р.М.\nГрупи: ТЗНС-11\, ТЗНСС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:omnoec-35@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T162000
+DTEND;TZID=Europe/Kyiv:20260903T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Заг екологія (Лекція)
+LOCATION:ауд. гурт№2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Данилик Р.М.\nГрупи: ЛІ-11
 END:VEVENT
 END:VCALENDAR

@@ -80,6 +80,17 @@ DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Кушпіт О.М.\nГрупи: ТЗНС-51м
 END:VEVENT
 BEGIN:VEVENT
+UID:gcr41d-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Технології сушіння деревини (Лекція
+ )
+LOCATION:ауд. 38\, корпус 2
+DESCRIPTION:Викладач: Кушпіт О.М.\nГрупи: ЕМ-31
+END:VEVENT
+BEGIN:VEVENT
 UID:12pgibg-14@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260908T143000

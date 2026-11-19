@@ -25,6 +25,76 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:108b004-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Теорія та історія світового державо
+ творення (Лабораторна)
+LOCATION:ауд. 215
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: ПР-11
+ \, ПУА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:kt2wom-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T143000
+DTEND;TZID=Europe/Kyiv:20260914T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Україна в світовихінтеграц проц (Ла
+ бораторна)
+LOCATION:ауд. 412
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\nГрупи: ГД-31
+END:VEVENT
+BEGIN:VEVENT
+UID:1suhkp3-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Україна в світовихінтеграц проц (Ле
+ кція)
+LOCATION:ауд. 412
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\nГрупи: ГД-31
+END:VEVENT
+BEGIN:VEVENT
+UID:1oaoy39-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: МО-12
+END:VEVENT
+BEGIN:VEVENT
+UID:1hhhos7-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: МО-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1ueemyl-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T143000
+DTEND;TZID=Europe/Kyiv:20260901T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Україна в світових інтеграц процеса
+ х (Лабораторна)
+LOCATION:ауд. 309
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\nГрупи: ЛІ-21\, ЛІС-11
+END:VEVENT
+BEGIN:VEVENT
 UID:1bm1nfw-21@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260902T083000
@@ -62,6 +132,30 @@ DESCRIPTION:Викладач: Саламаха І.П.\, Дуда Н.М.\n
   ТДБ-21/2\, Д-11/1\, Д-11/2
 END:VEVENT
 BEGIN:VEVENT
+UID:aiy3l1-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: МГ-11\, ЗК
+ Р-11\, ГД-11/1\, ГД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1gmiskq-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T102000
+DTEND;TZID=Europe/Kyiv:20260909T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: СПГ-11/1\, 
+ СПГ-11/2\, СПГ-12
+END:VEVENT
+BEGIN:VEVENT
 UID:1cfojs3-23@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260902T121000
@@ -74,6 +168,18 @@ DESCRIPTION:Чисельник (через тиждень)\nВиклада
  Т-21/2
 END:VEVENT
 BEGIN:VEVENT
+UID:1w7forq-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: А-11/1\, А-1
+ 1/2
+END:VEVENT
+BEGIN:VEVENT
 UID:gp6hxd-23@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260909T121000
@@ -84,5 +190,146 @@ LOCATION:ауд. 20\, корпус 2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Саламаха І.П.\, Дуда Н.М.\nГрупи: ТДБ-21/1\, 
  ТДБ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:12erxcl-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Україна в світових інтеграц процеса
+ х (Лабораторна)
+LOCATION:ауд. 405
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\nГрупи: ЛІ-21\, ЛІС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:12m9yxt-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 106
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: ЛГ-11/1\, Л
+ Г-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:8hx2ki-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 106
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Саламаха І.П.\nГрупи: ЛГ-12/1\, Л
+ Г-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:7lp1e7-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Україна у світових та інтеграц.проц
+ есах (Лабораторна)
+LOCATION:ауд. 1\, корпус 6
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: ПС-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1ix37zi-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конферец-зал\, корпус 1
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: МО-11
+ \, МО-12\, МЗЕД-11/1\, МЗЕД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1mqfna7-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Україна у світових та інтеграц.проц
+ есах (Лекція)
+LOCATION:ауд. 1\, корпус 6
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: ПС-41
+END:VEVENT
+BEGIN:VEVENT
+UID:j1trgj-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лабора
+ торна)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Викладач: Дуда Н.М.\, Саламаха І.П.\n
+ Групи: А-11/1\, А-11/2\, ЛГ-11/1\, ЛГ-11/2\, ЛГ-12/1\, ЛГ-
+ 12/2\, МГ-11\, СПГ-11/1\, СПГ-11/2\, СПГ-12\, ЗКР-11\, ГД
+ -11/1\, ГД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:rz5ahi-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конферец-зал\, корпус 1
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: МК-11
+ /1\, МК-11/2\, МК-12/1
+END:VEVENT
+BEGIN:VEVENT
+UID:qrcbh9-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Теорія та історія світового державо
+ тв (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: ПР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1i2c67b-35@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T162000
+DTEND;TZID=Europe/Kyiv:20260903T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Теорія та історія світового державо
+ тв (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\, Новак-Каляєва Л.М.\nГруп
+ и: ПУА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:4mss53-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260911T102000
+DTEND;TZID=Europe/Kyiv:20260911T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лабораторна)
+LOCATION:ауд. 405
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Саламаха І.П.\nГрупи: ІД-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1073kgq-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Саламаха І.П.\nГрупи: ІД-11
 END:VEVENT
 END:VCALENDAR

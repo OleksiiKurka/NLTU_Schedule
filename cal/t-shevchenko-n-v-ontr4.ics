@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · Шевченко Н.В.
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:11fuhi3-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Методологія наук досл проц галузі (Л
+ абораторна)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: МЛ-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:u6j4h3-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T121000
+DTEND;TZID=Europe/Kyiv:20260908T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лабораторна)
+LOCATION:ауд. 1\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: ГМ-21/1\, ГМ-21/2\, АІ-21\
+ , АІС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:151fxpb-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T143000
+DTEND;TZID=Europe/Kyiv:20260901T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лабораторна)
+LOCATION:ауд. 1\, корпус 6
+DESCRIPTION:Викладач: Шевченко Н.В.\nГрупи: ГМ-21
+ /1\, ГМ-21/2\, АІ-21\, АІС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:x1fjka-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лабораторна)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Викладач: Шевченко Н.В.\nГрупи: АТ-21
+ \, АТ-22\, ІБС-21\, АТС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1dyo80k-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лекція)
+LOCATION:ауд. 2\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: АТ-21\, АТС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1mpcplz-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T102000
+DTEND;TZID=Europe/Kyiv:20260909T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лекція)
+LOCATION:ауд. 2\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: АТ-22
+END:VEVENT
+BEGIN:VEVENT
+UID:aegrpy-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лекція)
+LOCATION:ауд. 2\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: ГМ-21/1\, ГМ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1n5l8bm-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гідравліка\, гідроприводи і гідравл
+ ічні передачі (Лекція)
+LOCATION:ауд. 2\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: ІБС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:15dx3tm-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T121000
+DTEND;TZID=Europe/Kyiv:20260910T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Наукові дослідження процесів (Лабор
+ аторна)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: ГМЛ-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1mm5nwc-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T121000
+DTEND;TZID=Europe/Kyiv:20260910T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Наукове досліджування (Лабораторна)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шевченко Н.В.\nГрупи: ГМЛС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:1jstxc9-41@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T083000
+DTEND;TZID=Europe/Kyiv:20260904T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Вступ до спеціальності (Лекція)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Викладач: Шевченко Н.В.\nГрупи: АТ-11
+ /1\, АТ-11/2\, АТ-12/1\, АТ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1clpy1i-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Вступ до спеціальності (Лекція)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Викладач: Озимок Ю.І.\, Гончар І.М.\, 
+ Шевченко Н.В.\nГрупи: ГМ-11/1\, ГМ-11/2\, ГМ-12/1\, 
+ ГМ-12/2
+END:VEVENT
+END:VCALENDAR

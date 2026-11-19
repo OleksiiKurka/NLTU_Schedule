@@ -71,6 +71,17 @@ DESCRIPTION:Викладач: Петрашак І.В.\nГрупи: ТЗН
  С-31/1\, ТЗНС-31/2\, ТЗНСС-21
 END:VEVENT
 BEGIN:VEVENT
+UID:d7fw9d-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Технології сушіння деревини (Лабора
+ торна)
+LOCATION:ауд. 41\, корпус 2
+DESCRIPTION:Викладач: Петрашак І.В.\nГрупи: ЕМ-31
+END:VEVENT
+BEGIN:VEVENT
 UID:ydy6gm-35@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260903T162000

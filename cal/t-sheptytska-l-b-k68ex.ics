@@ -25,6 +25,54 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1hkbbac-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T102000
+DTEND;TZID=Europe/Kyiv:20260914T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Правознавство (Лабораторна)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ЛГ-41/1\, ЛГ-41/2\, ЛГ-4
+ 2/1\, ЛГ-42/2\, МГ-41\, СПГ-41\, ГД-41\, ЗКР-41
+END:VEVENT
+BEGIN:VEVENT
+UID:tgoa5x-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Правознавство (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: МГ-41\, СПГ-41\, ГД-41\
+ , ЗКР-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1azv9s1-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Природоохоранне законодавство та е
+ кологічне право (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: ЛГ-
+ 22/1\, ЛГ-22/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1q9trs6-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Природоохоранне законодавство та е
+ кологічне право (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: ЛГ-
+ 21/1\, ЛГ-21/2
+END:VEVENT
+BEGIN:VEVENT
 UID:167l10j-05@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260907T162000
@@ -34,6 +82,158 @@ SUMMARY:Правознавство (Лекція)
 LOCATION:ауд. 407
 DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: ТЗ
  НС-41\, ТЗНСС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:iv2wdx-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Трудове права (Лабораторна)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ПР-21
+END:VEVENT
+BEGIN:VEVENT
+UID:1mr13s7-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Трудове права (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ПР-21
+END:VEVENT
+BEGIN:VEVENT
+UID:a9104v-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Інформаційне право (Лекція)
+LOCATION:ауд. 406
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ПР-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1dv6qid-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інформаційне право (Лабораторна)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: ІД-
+ 41\, ПР-41
+END:VEVENT
+BEGIN:VEVENT
+UID:2i1va4-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інформаційне право (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: ІД-
+ 41
+END:VEVENT
+BEGIN:VEVENT
+UID:1tavyug-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Природоохор законод та еколог право
+  (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ГМ-21/1\, ГМ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1emspew-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Природоохор законод та еколог право
+  (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ПМ-21/1\, ПМ-21/2\, АІ-2
+ 1\, АІС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1tut46c-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Шептицька Л.Б.\nГрупи: МЗ
+ ЕД-11/1\, МЗЕД-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:7gepov-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T083000
+DTEND;TZID=Europe/Kyiv:20260910T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Природоохоранне законодавство та е
+ кологічне право (Лабораторна)
+LOCATION:ауд. 407
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ЛГ-21/1\, ЛГ-21/2\, ЛГ-2
+ 2/1\, ЛГ-22/2
+END:VEVENT
+BEGIN:VEVENT
+UID:es0hkv-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Правознавство (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ЛГ-41/1\, ЛГ-41/2
+END:VEVENT
+BEGIN:VEVENT
+UID:tx9flp-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Правознавство (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ЛГ-42/1\, ЛГ-42/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1q88wlp-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Природоохор законод та еколог право
+  (Лабораторна)
+LOCATION:ауд. 407
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: ПМ-21/1\, ПМ-21/2\, ГМ-2
+ 1/1\, ГМ-21/2\, АІ-21\, АТ-21\, АТ-22\, АІС-11\, АТС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1ya7rdq-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T121000
+DTEND;TZID=Europe/Kyiv:20260910T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Природоохор законод та еколог право
+  (Лекція)
+LOCATION:ауд. 407
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шептицька Л.Б.\nГрупи: АТ-21\, АТ-22\, АТС-11
 END:VEVENT
 BEGIN:VEVENT
 UID:1sl28gf-34@nltu-schedule

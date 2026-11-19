@@ -1,6 +1,14 @@
 const assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),C=require('./core.js');
 let ctx={window:{}};vm.runInNewContext(fs.readFileSync('data/schedule.js','utf8'),ctx);let data=ctx.window.SCHEDULE;
-assert.equal(data.groups.length,62);assert.equal(new Set(data.lessons.map(x=>x.sheet)).size,6);
+C.normalize(data);C.normalize(data);
+// Структура даних: 6 інститутів, ієрархія інститут → напрям → група → підгрупа, нормалізований час
+{const inst=new Set(data.institutes.map(i=>i.id)),G=C.groups(data);assert.equal(data.institutes.length,6);assert.equal(inst.size,6);
+ assert.equal(new Set(G.map(g=>g.id)).size,G.length);assert(G.length<=data.groups.length);assert(G.every(g=>inst.has(g.instituteId)));
+ const dir=new Map(),base=new Map();for(const g of G){assert(!dir.has(g.direction)||dir.get(g.direction)===g.instituteId,g.direction);dir.set(g.direction,g.instituteId);assert(!base.has(g.base)||base.get(g.base)===g.direction,g.base);base.set(g.base,g.direction)}
+ const ids=new Set(G.map(g=>g.id));assert(data.lessons.every(l=>ids.has(l.group)&&inst.has(l.instituteId)));
+ assert(data.lessons.every(l=>/^\d{1,2}:\d{2} - \d{1,2}:\d{2}$/.test(l.time)));for(const s of [1,2,3,4,5])assert.equal(new Set(data.lessons.filter(l=>l.slot===s).map(l=>l.time)).size,1,'slot '+s);
+ assert.equal(C.key('дт 12'),C.key('ДТ-12'));assert(C.key('ДТ-12').startsWith(C.key('дт1')));
+ const copy={lessons:[{slot:2,time:'10:20'},{slot:9,time:'1:00'}]};C.normalize(copy);assert.equal(copy.lessons[0].time,'10:20 - 11:55');assert.equal(copy.lessons[1].time,'1:00')}
 assert.equal(C.parity('2026-09-01',C.defaults),'н');assert.equal(C.parity('2026-09-07',C.defaults),'п');assert.equal(C.parity('2026-09-14',C.defaults),'н');
 assert.equal(C.parity('2026-08-24',C.defaults),'п');assert.equal(C.parity('2026-09-01',{...C.defaults,firstParity:'п'}),'п');
 let eng=data.lessons.filter(x=>x.group.startsWith('ДТ-12/')&&x.subject==='Інженер граф'),events=C.occurrences(eng,C.defaults);
@@ -24,3 +32,4 @@ console.log('PASS: bounded grades 0/1/3/5–5, exact totals, infeasible allocati
  const withSession={...C.defaults,sessionStart:'2026-12-14',sessionEnd:'2026-12-31'},rows=C.select(data.lessons,{mode:'student',group:'ДТ-12',sub:'ДТ-12/1'});assert.equal(expand(C.ics(rows,withSession,{mode:'student',group:'ДТ-12',sub:'ДТ-12/1'}).replace(/\d{8}T215959Z/g,'20261218T215959Z')),C.occurrences(rows,withSession).length);
  console.log('PASS: '+slugs.size+' calendar subscriptions match semester occurrences, unique slugs, session exclusion')}
 require('child_process').execFileSync(process.execPath,[require('path').join(__dirname,'scripts/build_calendars.cjs'),'--check'],{stdio:'inherit'});
+{const again=C.normalize(JSON.parse(JSON.stringify(C.pack(data))));const J=JSON.stringify;assert.equal(J(again.lessons),J(data.lessons));assert.equal(J(again.groups),J(C.groups(data)));assert.equal(J(again.institutes),J(data.institutes));console.log('PASS: compact schedule format round-trips ('+data.lessons.length+' lessons)')}

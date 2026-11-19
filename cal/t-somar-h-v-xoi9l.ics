@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:wtz88m-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності і ООП (Лекц
+ ія)
+LOCATION:ауд. 40А\, корпус 2
+DESCRIPTION:Викладач: Сомар Г.В.\nГрупи: ЕК-41\, Е
+ КС-31
+END:VEVENT
+BEGIN:VEVENT
 UID:uqmcmq-04@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260907T143000
@@ -73,6 +85,17 @@ DESCRIPTION:Викладач: Кшивецький Б.Я.\, Сомар Г.
  В.\, Маєвська О.М.\nГрупи: ДМТ-61м
 END:VEVENT
 BEGIN:VEVENT
+UID:1uj78by-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Цивільний захист та ОП (Лабораторна)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ТР-51\, ЕК-51м
+END:VEVENT
+BEGIN:VEVENT
 UID:e8znx-21@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260909T083000
@@ -82,6 +105,30 @@ SUMMARY:БЖД та ООП (Лабораторна)
 LOCATION:ауд. 30\, корпус 2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Сомар Г.В.\nГрупи: Д-41/1\, Д-41/2\, ДС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:y4zczo-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T083000
+DTEND;TZID=Europe/Kyiv:20260909T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та основи о
+ хорони праці (Лекція)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: КН-41/1\, КН-41/2\, КН-42\, КН
+ С-31\, ІСТ-41/1\, ІСТС-31\, ІПЗ-41/1\, ІПЗ-41/2\, ІПЗС-
+ 31
+END:VEVENT
+BEGIN:VEVENT
+UID:1v3wsr0-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Охорона праці в галузі та ЦЗ (Лекція)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Викладач: Сомар Г.В.\nГрупи: ТР-51
 END:VEVENT
 BEGIN:VEVENT
 UID:ui26l2-23@nltu-schedule
@@ -108,6 +155,18 @@ DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Сомар Г.В.\nГрупи: ТЗНС-51м
 END:VEVENT
 BEGIN:VEVENT
+UID:v4m36y-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та ООП (Лаб
+ ораторна)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ЕК-41\, ЕКС-31
+END:VEVENT
+BEGIN:VEVENT
 UID:1lu8aav-24@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260909T143000
@@ -118,6 +177,28 @@ SUMMARY:Основи оцінки життєвого циклу (Лекц
 LOCATION:ауд. 37\, корпус 2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Сомар Г.В.\nГрупи: ТЗНС-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:b7wts-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Цивільний захист (Лекція)
+LOCATION:ауд. 30\, корпус 2
+DESCRIPTION:Викладач: Сомар Г.В.\nГрупи: ЕК-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:vvw7w5-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та основи о
+ хорони праці (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ІПЗ-41/2
 END:VEVENT
 BEGIN:VEVENT
 UID:1hup7sj-31@nltu-schedule
@@ -133,6 +214,42 @@ DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ТДБС-31
 END:VEVENT
 BEGIN:VEVENT
+UID:ob9fq4-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та основи о
+ хорони праці (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: КН-41/1
+END:VEVENT
+BEGIN:VEVENT
+UID:ixrd9f-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та основи о
+ хорони праці (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: КН-42
+END:VEVENT
+BEGIN:VEVENT
+UID:1irkwzp-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Безпека життєдіяльності та основи о
+ хорони праці (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: КНС-31
+END:VEVENT
+BEGIN:VEVENT
 UID:1wqpptp-33@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260910T121000
@@ -142,5 +259,29 @@ SUMMARY:БЖД та ООП (Лекція)
 LOCATION:ауд. 30\, корпус 2
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Сомар Г.В.\nГрупи: Д-41/1\, Д-41/2\, ДС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:1uexy5y-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Захист довкілля:інтегровані технол
+ огії (Лабораторна)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ОА-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:gwn8g7-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T143000
+DTEND;TZID=Europe/Kyiv:20260910T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Захист довкілля:інтегровані технол
+ огії (Лекція)
+LOCATION:ауд. 37\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сомар Г.В.\nГрупи: ОА-51м
 END:VEVENT
 END:VCALENDAR

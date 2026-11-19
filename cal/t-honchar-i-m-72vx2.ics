@@ -49,6 +49,29 @@ DESCRIPTION:Знаменник (через тиждень)\nВиклада
  2/1\, ТДБ-12/2\, ТДБ-13
 END:VEVENT
 BEGIN:VEVENT
+UID:1kvbcjc-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Технологія машинобудування (Лабора
+ торна)
+LOCATION:ауд. 609
+DESCRIPTION:Викладач: Гончар І.М.\nГрупи: ПМД-31\,
+  ПМЛ-31\, ІН-31\, ГМД-31\, ГМЛ-31\, ЕМ-31
+END:VEVENT
+BEGIN:VEVENT
+UID:fpmc08-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Технологія машинобудування (Лекція)
+LOCATION:ауд. 609
+DESCRIPTION:Викладач: Гончар І.М.\nГрупи: ПМД-31\,
+  ПМЛ-31\, ІН-31\, ГМД-31\, ГМЛ-31\, ЕМ-31
+END:VEVENT
+BEGIN:VEVENT
 UID:iebsk1-23@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260902T121000
@@ -103,6 +126,18 @@ SUMMARY:Інженер граф (Лекція)
 LOCATION:ауд. 607
 DESCRIPTION:Викладач: Гончар І.М.\nГрупи: ДТ-12/1\,
   ДТ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1wyaqvx-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Вступ до спеціальності (Лекція)
+LOCATION:ауд. 17\, корпус 6
+DESCRIPTION:Викладач: Озимок Ю.І.\, Гончар І.М.\, 
+ Шевченко Н.В.\nГрупи: ГМ-11/1\, ГМ-11/2\, ГМ-12/1\, 
+ ГМ-12/2
 END:VEVENT
 BEGIN:VEVENT
 UID:126scbd-43@nltu-schedule

@@ -25,6 +25,76 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:xtyz92-01@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T083000
+DTEND;TZID=Europe/Kyiv:20260907T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Вступ до фаху (Лабораторна)
+LOCATION:ауд. В
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-11\, ПС-12\, ПС-13\, ПС-1
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1axswmd-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Психологія управл та педагогіка (Ла
+ бораторна)
+LOCATION:ауд. 106
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: МЛ-51м\, МД-51м\, ІН-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:15e2pda-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Вступ до фаху (Лекція)
+LOCATION:ауд. 5\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-12
+END:VEVENT
+BEGIN:VEVENT
+UID:yf4rm1-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T143000
+DTEND;TZID=Europe/Kyiv:20260914T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Педагогіка і психологія вищої школи
+  (Лекція)
+LOCATION:ауд. 106\, корпус 1
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: КН(М)-51/1\, КН(М)-51/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1o4nxpa-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Вступ до фаху (Лекція)
+LOCATION:ауд. 106
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:dnnqpb-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T162000
+DTEND;TZID=Europe/Kyiv:20260914T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Педагогіка і психологія вищої школи
+  (Практична)
+LOCATION:ауд. 106\, корпус 1
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: КН(М)-51/1\, КН(М)-51/2
+END:VEVENT
+BEGIN:VEVENT
 UID:u6xzma-05@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260907T162000
@@ -34,6 +104,85 @@ SUMMARY:Психологія (Лабораторна)
 LOCATION:ауд. 106
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Шикула О.П.\nГрупи: ТДБ-41\, ТДБС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:12fulab-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Гендерно-вікова психологія (Лаборат
+ орна)
+LOCATION:ауд. 207
+DESCRIPTION:Викладач: Шикула О.П.\nГрупи: ПС-41
+END:VEVENT
+BEGIN:VEVENT
+UID:jq2lm6-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гендерно-вікова психологія (Лекція)
+LOCATION:ауд. 207
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-41
+END:VEVENT
+BEGIN:VEVENT
+UID:28fyge-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T102000
+DTEND;TZID=Europe/Kyiv:20260909T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Системна сімейна терапія (Лаборатор
+ на)
+LOCATION:ауд. 207
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-41
+END:VEVENT
+BEGIN:VEVENT
+UID:154b0vl-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Основи психологічного консультуван
+ ня (Лекція)
+LOCATION:ауд. 207
+DESCRIPTION:Викладач: Шикула О.П.\nГрупи: ПС-33
+END:VEVENT
+BEGIN:VEVENT
+UID:1bdqbn6-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Гендерно-вікова психологія (Лекція)
+LOCATION:ауд. 207
+DESCRIPTION:Викладач: Шикула О.П.\nГрупи: ПС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:uuqtge-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи психологічного консультуван
+ ня (Лабораторна)
+LOCATION:ауд. 106
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-31\, ПС-32\, ПС-33
+END:VEVENT
+BEGIN:VEVENT
+UID:a1e06y-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Гендерно-вікова психологія (Лаборат
+ орна)
+LOCATION:ауд. 106
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-31\, ПС-32\, ПС-33
 END:VEVENT
 BEGIN:VEVENT
 UID:geatbe-34@nltu-schedule
@@ -47,5 +196,16 @@ LOCATION:ауд. 20\, корпус 2
 DESCRIPTION:Чисельник (через тиждень)\nВиклада
  ч: Шикула О.П.\nГрупи: ДМТ-51м\, ТЗНС-51м\, ТДБ
  -51м\, Д-51/1м
+END:VEVENT
+BEGIN:VEVENT
+UID:nc4ytb-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T143000
+DTEND;TZID=Europe/Kyiv:20260910T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Системна сімейна терапія (Лекція)
+LOCATION:ауд. 20\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Шикула О.П.\nГрупи: ПС-41
 END:VEVENT
 END:VCALENDAR

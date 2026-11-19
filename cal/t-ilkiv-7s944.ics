@@ -48,6 +48,18 @@ DESCRIPTION:Чисельник (через тиждень)\nВиклада
  ч: Ільків\nГрупи: ТДБ-41\, ТДБС-31
 END:VEVENT
 BEGIN:VEVENT
+UID:18ful98-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T143000
+DTEND;TZID=Europe/Kyiv:20260910T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Психологія управл та педагогіка (Ле
+ кція)
+LOCATION:ауд. 19\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Ільків\nГрупи: МЛ-51м\, МД-51м\, ІН-51м
+END:VEVENT
+BEGIN:VEVENT
 UID:971tfx-35@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260903T162000

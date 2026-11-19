@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · Криштапович В.І.
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1u9j577-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ПМ-21/1
+END:VEVENT
+BEGIN:VEVENT
+UID:1u9j11u-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ПМ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1axdcqs-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Електротехн\, електроніка і мікропр
+ оцесорна техніка (Лабораторна)
+LOCATION:ауд. 84\, корпус 2
+DESCRIPTION:Викладач: Криштапович В.І.\nГрупи: 
+ ПМ-21/1\, ПМ-21/2\, ГМ-21/1\, ГМ-21/2\, АТ-21\, АТ-22\, ІБ
+ С-21\, АТС-11\, ГМЛС-21\, ГМДС-21\, ПМДС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:awp8wc-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехн\, електроніка і мікропр
+ оцесорна техніка (Лекція)
+LOCATION:ауд. 84\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ГМЛС-21\, ГМДС-21\
+ , ПМДС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:1rgnn0a-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T121000
+DTEND;TZID=Europe/Kyiv:20260908T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 63\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ІБС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:1cpqety-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T143000
+DTEND;TZID=Europe/Kyiv:20260901T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Внутрішньоцехове енерго постачання
+  (Лабораторна)
+LOCATION:ауд. 64\, корпус 2
+DESCRIPTION:Викладач: Криштапович В.І.\nГрупи: 
+ АК-41/1\, АК-41/2\, АК-42/1\, АК-42/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ytmoro-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Внутрішньоцехове енерго постачання
+  (Лекція)
+LOCATION:ауд. 15\, корпус 2
+DESCRIPTION:Викладач: Криштапович В.І.\nГрупи: 
+ АК-41/1\, АК-41/2
+END:VEVENT
+BEGIN:VEVENT
+UID:166jr1f-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Внутрішньоцехове енерго постачання
+  (Лекція)
+LOCATION:ауд. 15\, корпус 2
+DESCRIPTION:Викладач: Криштапович В.І.\nГрупи: 
+ АК-42/1\, АК-42/2
+END:VEVENT
+BEGIN:VEVENT
+UID:5n6l21-41@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T083000
+DTEND;TZID=Europe/Kyiv:20260904T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ГМ-21/1
+END:VEVENT
+BEGIN:VEVENT
+UID:5n6p7c-41@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260911T083000
+DTEND;TZID=Europe/Kyiv:20260911T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: ГМ-21/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1x7gg2i-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: АТ-22
+END:VEVENT
+BEGIN:VEVENT
+UID:1kza3sa-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Електротехніка\, електроніка (Лекці
+ я)
+LOCATION:ауд. 73\, корпус 2
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Криштапович В.І.\nГрупи: АТ-21\, АТС-11
+END:VEVENT
+END:VCALENDAR

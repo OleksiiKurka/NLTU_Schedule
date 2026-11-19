@@ -37,6 +37,23 @@ function ics(rows,c,x,opts={}){
   L.push('SUMMARY:'+q(l.subject+(opts.types===false?'':' ('+TYPES[l.type]+')')));if(l.room)L.push('LOCATION:'+q('ауд. '+l.room+(l.building?', корпус '+l.building:'')));
   L.push('DESCRIPTION:'+q((p?(p==='н'?'Чисельник':'Знаменник')+' (через тиждень)\n':'')+'Викладач: '+(l.teachers.join(', ')||'не вказано')+'\nГрупи: '+l.groups.join(', ')),'END:VEVENT')}
  L.push('END:VCALENDAR');return L.map(fold).join('\r\n')+'\r\n'}
-function calendars(SCHEDULE){const out=[],bases=[...new Set(SCHEDULE.groups.map(g=>g.base))];for(const g of bases)out.push({mode:'student',group:g,sub:'all'});for(const g of SCHEDULE.groups)if(g.id.includes('/'))out.push({mode:'student',group:g.base,sub:g.id});for(const t of [...new Set(SCHEDULE.lessons.flatMap(l=>l.teachers))].sort())out.push({mode:'teacher',teacher:t});return out}
-const api={select,label,hash,slug,ics,calendars,distributeBounded,defaults,date,iso,monday,add,parity,merge,students,occurrences,eligible,distribute};root.Core=api;if(typeof module!=='undefined')module.exports=api;
+// Нормалізація даних: час без кінця (ННІ КНІТ) -> канонічний «початок - кінець» слоту. Ідемпотентна, змінює SCHEDULE.
+const SLOT_TIMES={1:'8:30 - 10:05',2:'10:20 - 11:55',3:'12:10 - 13:45',4:'14:30 - 16:05',5:'16:20 - 17:35'},HAS_END=/^\d{1,2}:\d{2}\s*-\s*\d{1,2}:\d{2}$/;
+// Compact data/schedule.js: string tables + integer rows. pack() drops import metadata the app never reads;
+// normalize() expands it back in place to {institutes, groups, lessons, notes, source}.
+const PTYPES=['lecture','lab','practice'];
+function pack(full){normalize(full);const tab=()=>{const a=[],m=new Map();return {a,i:v=>{v=v??'';if(!m.has(v)){m.set(v,a.length);a.push(v)}return m.get(v)}}},I=full.institutes.map(i=>i.id),S=tab(),T=tab(),R=tab(),B=tab(),D=tab(),G=groups(full),gi=new Map(G.map((g,i)=>[g.id,i])),t={};
+ const g=G.map(x=>{const r=[x.id,D.i(x.direction),I.indexOf(x.instituteId)];if(x.base!==x.id.split('/')[0])r.push(x.base);return r});
+ const l=full.lessons.map(x=>{if(!gi.has(x.group))throw new Error('Unknown group '+x.group);if(t[x.slot]&&t[x.slot]!==x.time)throw new Error('Slot '+x.slot+' has two times');t[x.slot]=x.time;const r=[x.day,x.slot,x.parity==='п'?1:0,gi.get(x.group),S.i(x.subject),PTYPES.indexOf(x.type),x.teachers.map(T.i),R.i(x.room)];if(x.building)r.push(B.i(x.building));return r});
+ return {p:1,i:full.institutes.map(x=>[x.id,x.name]),d:D.a,g,t,s:S.a,T:T.a,r:R.a,b:B.a,l,notes:full.notes||[],source:full.source||''}}
+function unpack(P){const inst=P.i.map(([id,name])=>({id,name})),G=P.g.map(([id,d,i,base])=>({id,base:base||id.split('/')[0],direction:P.d[d],instituteId:inst[i].id})),L=P.l.map(([day,slot,par,g,s,ty,te,r,b])=>({day,slot,time:P.t[slot],parity:par?'п':'н',group:G[g].id,subject:P.s[s],type:PTYPES[ty],teachers:te.map(i=>P.T[i]),room:P.r[r],building:b===undefined?'':P.b[b],instituteId:G[g].instituteId}));
+ for(const k of ['p','i','d','g','t','s','T','r','b','l'])delete P[k];return Object.assign(P,{institutes:inst,groups:G,lessons:L})}
+function normalize(SCHEDULE){if(SCHEDULE.p)unpack(SCHEDULE);const canon={...SLOT_TIMES},seen={};for(const l of SCHEDULE.lessons)if(HAS_END.test(l.time)&&!seen[l.slot]){seen[l.slot]=1;canon[l.slot]=l.time}for(const l of SCHEDULE.lessons)if(!HAS_END.test(l.time)&&canon[l.slot])l.time=canon[l.slot];return SCHEDULE}
+// Групи з унікальними id (деякі групи подано двічі на різних аркушах).
+function groups(SCHEDULE){const seen=new Set();return SCHEDULE.groups.filter(g=>!seen.has(g.id)&&seen.add(g.id))}
+// Ключ пошуку групи: без регістру, пробілів і дефісів; латинські двійники кирилиці зведено до кирилиці («дт12» знаходить «ДТ-12»).
+const LOOK={a:'а',c:'с',e:'е',i:'і',o:'о',p:'р',x:'х',k:'к',m:'м',t:'т',h:'н',b:'в'};
+function key(s){return [...String(s).toLowerCase().replace(/[\s\-–—]+/g,'')].map(c=>LOOK[c]||c).join('')}
+function calendars(SCHEDULE){const out=[],G=groups(SCHEDULE),bases=[...new Set(G.map(g=>g.base))];for(const g of bases)out.push({mode:'student',group:g,sub:'all'});for(const g of G)if(g.id.includes('/'))out.push({mode:'student',group:g.base,sub:g.id});for(const t of [...new Set(SCHEDULE.lessons.flatMap(l=>l.teachers))].sort())out.push({mode:'teacher',teacher:t});return out}
+const api={pack,unpack,normalize,groups,key,select,label,hash,slug,ics,calendars,distributeBounded,defaults,date,iso,monday,add,parity,merge,students,occurrences,eligible,distribute};root.Core=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window==='undefined'?globalThis:window);

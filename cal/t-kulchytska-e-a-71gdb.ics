@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · Кульчицька Е.А.
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1vu11ub-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне п-ство та упрвл.стартап 
+ проєктами (Лабораторна)
+LOCATION:ауд. 505
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МО-41\, МО-42\, МЗЕД-41\, МК-41\, МК-42\,
+  МОС-31\, МЗЕДС-31\, МКС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:g2kf8l-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне п-ство та упрвл.стартап 
+ проєктами (Лекція)
+LOCATION:ауд. 312
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МО-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1koyksh-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне п-ство та упрвл.стартап 
+ проєктами (Лекція)
+LOCATION:ауд. 312
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МО-42\, МОС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:14cy4v7-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне п-ство та упрвл.стартап 
+ проєктами (Лекція)
+LOCATION:ауд. 312
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МЗЕД-41\, МЗЕДС-31
+END:VEVENT
+BEGIN:VEVENT
+UID:19duj65-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T102000
+DTEND;TZID=Europe/Kyiv:20260908T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Маркетинг п-ств лісового комплексу (
+ Лабораторна)
+LOCATION:ауд. 46\, корпус А
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Кульчицька Е.А.\nГрупи: МО-31\, МО-32\, МК-31\
+ , МК-32\, ЛО-31\, ЛО-32\, МОС-21\, МКС-21\, ЛОС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:8465ry-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Маркетингова інформація (Лаборатор
+ на)
+LOCATION:ауд. 312Б
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Кульчицька Е.А.\nГрупи: МК-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:10xvk6k-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Маркетингова інформація (Лекція)
+LOCATION:ауд. 312Б
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Кульчицька Е.А.\nГрупи: МК-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1m3uf5-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Маркетинг послуг (Лабораторна)
+LOCATION:ауд. 306
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Кульчицька Е.А.\nГрупи: МЗЕД-31\, МК-31\, МК
+ -32\, ЛО-31\, МЗЕДС-21\, МКС-21
+END:VEVENT
+BEGIN:VEVENT
+UID:1jfkouv-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне підприємництво та упра
+ вл.стартап проектами (Лекція)
+LOCATION:ауд. 312
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МК-41
+END:VEVENT
+BEGIN:VEVENT
+UID:1wbjsnl-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Інноваційне підприємництво та упра
+ вл.стартап проектами (Лекція)
+LOCATION:ауд. 312
+DESCRIPTION:Викладач: Кульчицька Е.А.\, Шведюк 
+ Ю.В.\nГрупи: МК-42\, МКС-31
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · ЛГ-51
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:abfuur-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T102000
+DTEND;TZID=Europe/Kyiv:20260914T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Геоботаніка (Лабораторна)
+LOCATION:ауд. 25\, корпус 4
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Сорока М.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:118ojb6-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Геоботаніка (Лекція)
+LOCATION:ауд. 25\, корпус 4
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Сорока М.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:v2vfnl-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Forest ecosystem services / Лісова сертифікація 
+ (Лабораторна)
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Осадчук Л.С.\, Заячук В.Я.\nГрупи: ЛГ-51/1м\
+ , ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:z2e0j4-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Forest ecosystem services / Лісова сертифікація 
+ (Лекція)
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Осадчук Л.С.\, Заячук В.Я.\nГрупи: ЛГ-51/1м\
+ , ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1ypvtun-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Технології лісокульт виробництва (Л
+ абораторна)
+LOCATION:ауд. 39\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дебринюк Ю.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:szbjn2-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T102000
+DTEND;TZID=Europe/Kyiv:20260908T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Технології лісокульт виробництва (Л
+ екція)
+LOCATION:ауд. 39\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дебринюк Ю.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:a4rtua-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Лісоуправління та планування (Лабор
+ аторна)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Миклуш С.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:ec706b-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T121000
+DTEND;TZID=Europe/Kyiv:20260908T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Лісоуправління та планування (Лекці
+ я)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Миклуш С.І.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1nqhsvs-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Landscape Fires: Science\, Policy and Management (Лаборато
+ рна)
+LOCATION:ауд. 35\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Кондратюк Л.М.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:dvg8bt-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Landscape Fires: Science\, Policy and Management (Лекція)
+LOCATION:ауд. 35\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Кондратюк Л.М.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:whugks-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Close-to-Nature and Climate-Smart Silviculture (Лаборатор
+ на)
+LOCATION:ауд. 35\, корпус 6
+DESCRIPTION:Викладач: Лавний В.В.\nГрупи: ЛГ-51/1м
+ \, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1g8tfha-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Close-to-Nature and Climate-Smart Silviculture (Лекція)
+LOCATION:ауд. 35\, корпус 6
+DESCRIPTION:Викладач: Лавний В.В.\nГрупи: ЛГ-51/1м
+ \, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:r7ojv5-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Інформац.технол (Лабораторна)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Вицега Р.Р.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1uwxnts-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T102000
+DTEND;TZID=Europe/Kyiv:20260910T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Інформац.технол (Лекція)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Вицега Р.Р.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:14fp9db-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T121000
+DTEND;TZID=Europe/Kyiv:20260903T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Forest Phytomass Estimation by Ground and Remote Methods (Лабо
+ раторна)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Гаврилюк А.С.\, Хомюк П.Г.\nГрупи: ЛГ-51/1м\
+ , ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:9fywvy-33@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T121000
+DTEND;TZID=Europe/Kyiv:20260910T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Forest Phytomass Estimation by Ground and Remote Methods (Лекц
+ ія)
+LOCATION:ауд. 56\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Гаврилюк А.С.\, Хомюк П.Г.\nГрупи: ЛГ-51/1м\
+ , ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:14rww0x-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T143000
+DTEND;TZID=Europe/Kyiv:20260903T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Регіональне лісівництво (Лаборатор
+ на)
+LOCATION:ауд. 36\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Новак А.А.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:12j3i9c-34@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T143000
+DTEND;TZID=Europe/Kyiv:20260910T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Регіональне лісівництво (Лекція)
+LOCATION:ауд. 36\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Новак А.А.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:fst5l4-35@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T162000
+DTEND;TZID=Europe/Kyiv:20260903T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Моделювання лісових екосистем (Лабо
+ раторна)
+LOCATION:ауд. 53\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Король М.М.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1qfeb21-35@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T162000
+DTEND;TZID=Europe/Kyiv:20260910T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Моделювання лісових екосистем (Лекц
+ ія)
+LOCATION:ауд. 53\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Король М.М.\nГрупи: ЛГ-51/1м\, ЛГ-51/2м
+END:VEVENT
+END:VCALENDAR

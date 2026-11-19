@@ -1,0 +1,421 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NLTU//Schedule//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:НЛТУ · Захарчин Н.Г.
+X-WR-TIMEZONE:Europe/Kyiv
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Kyiv
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:11uec6m-02@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T102000
+DTEND;TZID=Europe/Kyiv:20260907T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Основи демократії (Лекція)
+LOCATION:ауд. 412
+DESCRIPTION:Викладач: Захарчин Н.Г.\nГрупи: ІД-41
+END:VEVENT
+BEGIN:VEVENT
+UID:upd16p-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T121000
+DTEND;TZID=Europe/Kyiv:20260914T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи демократії (Лабораторна)
+LOCATION:ауд. 412
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: ІД-41
+END:VEVENT
+BEGIN:VEVENT
+UID:18rnmxj-03@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T121000
+DTEND;TZID=Europe/Kyiv:20260907T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лабораторна)
+LOCATION:ауд. 20\, корпус 2
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АК-11/1\, АК-11/2\, АК-12/
+ 1\, АК-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:14xeyww-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T143000
+DTEND;TZID=Europe/Kyiv:20260914T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: ГМ-11/1\, ГМ-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:127vhfm-04@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T143000
+DTEND;TZID=Europe/Kyiv:20260907T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 40\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: ГМ-12/1\, ГМ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:jyrgx8-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T162000
+DTEND;TZID=Europe/Kyiv:20260914T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лабораторна)
+LOCATION:ауд. В
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: ЛІ-11\, ПМ-11\, ГМ-11/1\, 
+ ГМ-11/2\, ГМ-12/1\, ГМ-12/2\, АІ-11/1\, АІ-11/2\, АТ-11/1\, 
+ АТ-11/2\, АТ-12/1\, АТ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1iq5mga-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260914T162000
+DTEND;TZID=Europe/Kyiv:20260914T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: НБ-12
+END:VEVENT
+BEGIN:VEVENT
+UID:cyn080-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 25\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АК-12/1\, АК-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:17csmt4-05@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260907T162000
+DTEND;TZID=Europe/Kyiv:20260907T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 211
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ФБ-11
+END:VEVENT
+BEGIN:VEVENT
+UID:11tp50s-11@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T083000
+DTEND;TZID=Europe/Kyiv:20260901T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ЕК-11/1\, ЕК-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1t1res-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ОА-11\, ГРС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:ktyko1-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ФБ-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1090w9o-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: НБ-11\, НБ-12\, ПУА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1wuho67-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лаб
+ ораторна)
+LOCATION:ауд. конф.зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-11\, ПС-12\, ПС-13\, ПС-14
+END:VEVENT
+BEGIN:VEVENT
+UID:1wxlxja-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лабораторна)
+LOCATION:ауд. конф.зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: Е-11\, ТР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1ppbv5w-12@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T102000
+DTEND;TZID=Europe/Kyiv:20260901T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія та культура України (Лабора
+ торна)
+LOCATION:ауд. конф-зал
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ЕК-11/1\, ЕК-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:12tekml-13@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T121000
+DTEND;TZID=Europe/Kyiv:20260901T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1igmg3a-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T143000
+DTEND;TZID=Europe/Kyiv:20260901T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: Е-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1w7bv6o-14@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T143000
+DTEND;TZID=Europe/Kyiv:20260908T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: НБ-11\, ПУ
+ А-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1dk9fhi-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260901T162000
+DTEND;TZID=Europe/Kyiv:20260901T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ОА-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1w2kzug-15@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260908T162000
+DTEND;TZID=Europe/Kyiv:20260908T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 307
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ГРС-11
+END:VEVENT
+BEGIN:VEVENT
+UID:7uo6u9-21@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T083000
+DTEND;TZID=Europe/Kyiv:20260902T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія держави і права України (Лаб
+ ораторна)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Захарчин Н.Г.\nГрупи: ПР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:82i3ap-22@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T102000
+DTEND;TZID=Europe/Kyiv:20260902T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія держави і права України (Лек
+ ція)
+LOCATION:ауд. 405
+DESCRIPTION:Викладач: Захарчин Н.Г.\nГрупи: ПР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:m06xgw-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T121000
+DTEND;TZID=Europe/Kyiv:20260902T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи демократії (Лабораторна)
+LOCATION:ауд. 405
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АК-51/1м\, АК-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:uarblt-23@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T121000
+DTEND;TZID=Europe/Kyiv:20260909T134500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Основи демократії (Лекція)
+LOCATION:ауд. 405
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АК-51/1м\, АК-51/2м
+END:VEVENT
+BEGIN:VEVENT
+UID:1o0qezm-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АТ-11/1\, АТ-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1uu3feq-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T143000
+DTEND;TZID=Europe/Kyiv:20260909T160500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 101
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АІ-11/1\, АІ-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:40ll53-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260909T162000
+DTEND;TZID=Europe/Kyiv:20260909T173500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України та української куль
+ тури (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Дуда Н.М.\, Захарчин Н.Г.\nГрупи: ТР-11
+END:VEVENT
+BEGIN:VEVENT
+UID:17btxsv-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T083000
+DTEND;TZID=Europe/Kyiv:20260903T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. 22\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: ЛІ-11\, ПМ-11
+END:VEVENT
+BEGIN:VEVENT
+UID:1afgbf5-31@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260910T083000
+DTEND;TZID=Europe/Kyiv:20260910T100500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історіяґ України (Лекція)
+LOCATION:ауд. 22\, корпус 6
+DESCRIPTION:Знаменник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АК-11/1\, АК-11/2
+END:VEVENT
+BEGIN:VEVENT
+UID:1l37tgo-32@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260903T102000
+DTEND;TZID=Europe/Kyiv:20260903T115500
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T215959Z
+SUMMARY:Історія України (Лекція)
+LOCATION:ауд. лаб3\, корпус 6
+DESCRIPTION:Чисельник (через тиждень)\nВиклада
+ ч: Захарчин Н.Г.\nГрупи: АТ-12/1\, АТ-12/2
+END:VEVENT
+BEGIN:VEVENT
+UID:jg63xr-41@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T083000
+DTEND;TZID=Europe/Kyiv:20260904T100500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-13
+END:VEVENT
+BEGIN:VEVENT
+UID:1ii4utp-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-12
+END:VEVENT
+BEGIN:VEVENT
+UID:10kwwui-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Історія України та укр.культури (Лек
+ ція)
+LOCATION:ауд. 407
+DESCRIPTION:Викладач: Дуда Н.М.\, Захарчин Н.Г.\n
+ Групи: ПС-14
+END:VEVENT
+END:VCALENDAR

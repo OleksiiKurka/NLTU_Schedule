@@ -37,6 +37,28 @@ DESCRIPTION:Чисельник (через тиждень)\nВиклада
  ч: Ільків К.Р.\nГрупи: ТЗНС-51м
 END:VEVENT
 BEGIN:VEVENT
+UID:ry341c-24@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T143000
+DTEND;TZID=Europe/Kyiv:20260902T160500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Психокорекція і психореабілітація (
+ Лекція)
+LOCATION:ауд. 5\, корпус 6
+DESCRIPTION:Викладач: Ільків К.Р.\nГрупи: ПС-33
+END:VEVENT
+BEGIN:VEVENT
+UID:1rsqmls-25@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260902T162000
+DTEND;TZID=Europe/Kyiv:20260902T173500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Психокорекція і психореабілітація (
+ Лекція)
+LOCATION:ауд. 5\, корпус 6
+DESCRIPTION:Викладач: Ільків К.Р.\nГрупи: ПС-32
+END:VEVENT
+BEGIN:VEVENT
 UID:1decgc6-35@nltu-schedule
 DTSTAMP:20260901T000000Z
 DTSTART;TZID=Europe/Kyiv:20260910T162000
@@ -47,5 +69,25 @@ SUMMARY:Педагог і психол вищої школи (Лекція
 LOCATION:ауд. 19\, корпус 6
 DESCRIPTION:Знаменник (через тиждень)\nВиклада
  ч: Ільків К.Р.\nГрупи: ТДБ-51м
+END:VEVENT
+BEGIN:VEVENT
+UID:1pmxdsi-42@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T102000
+DTEND;TZID=Europe/Kyiv:20260904T115500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Психологія особистості (Лекція)
+LOCATION:ауд. 211
+DESCRIPTION:Викладач: Ільків К.Р.\nГрупи: ПС-23
+END:VEVENT
+BEGIN:VEVENT
+UID:fpbp-43@nltu-schedule
+DTSTAMP:20260901T000000Z
+DTSTART;TZID=Europe/Kyiv:20260904T121000
+DTEND;TZID=Europe/Kyiv:20260904T134500
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20261218T215959Z
+SUMMARY:Психологія особистості (Лекція)
+LOCATION:ауд. 207
+DESCRIPTION:Викладач: Ільків К.Р.\nГрупи: ПС-22
 END:VEVENT
 END:VCALENDAR
